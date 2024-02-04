@@ -1,0 +1,19 @@
+.classText {
+    background-color: lightcoral;
+    font-family: Verdana, "DejaVu Sans", sans-serif; 
+}
+
+#increasedFont {
+    font-size: 24px;
+}
+
+#idtwo {
+    color: blue;
+    font-size: 36px;
+}
+
+#idfour {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
