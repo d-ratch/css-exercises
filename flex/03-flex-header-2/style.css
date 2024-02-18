@@ -9,9 +9,39 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: flex-end;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.farLeft {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 12px;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+  padding-left: 4px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.farRight {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
 }
 
 .profile-image {
@@ -22,19 +52,12 @@ body {
   height: 48px;
 }
 
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
-}
-
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 6px 24px;
 }
 
 a {
@@ -46,3 +69,4 @@ a {
 ul {
   list-style-type: none;
 }
+
